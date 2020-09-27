@@ -3,6 +3,9 @@ const express = require('express');
 const port = process.env.PORT || 3000;
 const app = express();
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
+
+app.use(bodyParser.json());
 
 //Imported routes
 const artistRoutes = require('./routes/artists');
