@@ -4,8 +4,10 @@ const port = process.env.PORT || 3000;
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 app.use(bodyParser.json());
+app.use(cors());
 
 //Imported routes
 const artistRoutes = require('./routes/artists');

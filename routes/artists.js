@@ -2,8 +2,13 @@ const express = require('express');
 const router = express.Router();
 const Artist = require('../models/ArtistsModel');
 
-router.get('/tiggitytest', (req,res) => {
-    res.send('we are on tiggitytest');
+router.get('/', async (req,res) => {
+    try{
+        const artists = await Artist.find();
+        res.json(artists);
+    } catch (err){
+        res.json(err);
+    }
 });
 
 router.post('/', async (req,res) => {
