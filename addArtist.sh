@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
-echo 'Enter artist name:'
-read name
-echo 'Enter artist description:'
-read desc
+read - p 'Enter artist name: ' name
+read - p 'Enter artist description: ' desc
 
-echo 'Does the artist have any online platforms? [y]es or [n]o'
-read choice
+read - p 'Does the artist have any online platforms? [y]es or [n]o' choice
+while (($choice != 'y' & $choice != 'Y' & $choice != 'n' & $choice != 'N'))
+do
+    read - p 'Does the artist have any online platforms? [y]es or [n]o' choice
+done
+
 #loop
 echo 'Enter name of platform (instagram, facebook, website, etc):'
 read platform
@@ -33,3 +35,15 @@ read choice
 echo 'adding to json...'
 
 jq '.' artistList.json
+ echo "{
+    \"id\": ,
+    \"name\": $name,
+    \"description\": $desc,
+    \"platforms\":[
+    ],
+    \"nationality\": $nationality
+    \"mediums\":[
+    ],
+    \"subjectMatter\":[
+    ]
+}"
