@@ -1,0 +1,40 @@
+[
+    {
+        "id": "1",
+        "name": "Kim Jung Gi",
+        "description": "Kim Jung Gi is amazing artist born in the town of Goyang-Si, located in the province of Kyongki-Do South Korea in 1975. Jung Gi attended Dong-Eui University in Busan for three years and did his two years in the South Korean army as a part of the Special Forces Unit.  Here, he was able to memorize the array of different weapons and vehicles. Kim’s most notable creative asset is his memory, something he has developed over a number of years.  His ability to render extremely complicated scenes near-perfectly from memory, without the aid of references, has stretched the boundaries of what many artists believed was possible.",
+        "platforms": [
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/kimjunggius/"
+            },
+            {
+                "platform": "facebook",
+                "url": "https://www.facebook.com/junggiking/"
+            },
+            { 
+                "platform": "website",
+                "url": "https://www.kimjunggius.com/"
+            }
+        ],
+        "nationality": "KR",
+        "mediums": [
+            "pen",
+            "pencil",
+            "brush pen",
+            "marker",
+            "watercolor",
+            "gouache"
+        ],
+        "subjectMatter": [
+            "surreal",
+            "fantasy",
+            "gore",
+            "machines",
+            "animals",
+            "anatomy",
+            "perspective",
+            "violence"
+        ]
+    }
+]
