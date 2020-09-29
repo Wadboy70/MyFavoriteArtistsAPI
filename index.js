@@ -33,10 +33,9 @@ app.get('/random/:random', (req,res) => {
     res.json(randomArtistNum(req.params.random));
 });
 app.get('*', (req,res) => {
-    const statusCode = err.statusCode || 500;
-
-    res.status(statusCode).json({
-        type: 'error', message: err.message
+   
+    res.status(404).json({
+        type: 'error', message: 'page not found'
     });
 });
 

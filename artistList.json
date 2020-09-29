@@ -1,5 +1,5 @@
-[
-    {
+{
+    "Kim Jung Gi": {
         "id": "1",
         "name": "Kim Jung Gi",
         "description": "Kim Jung Gi is amazing artist born in the town of Goyang-Si, located in the province of Kyongki-Do South Korea in 1975. Jung Gi attended Dong-Eui University in Busan for three years and did his two years in the South Korean army as a part of the Special Forces Unit.  Here, he was able to memorize the array of different weapons and vehicles. Kim’s most notable creative asset is his memory, something he has developed over a number of years.  His ability to render extremely complicated scenes near-perfectly from memory, without the aid of references, has stretched the boundaries of what many artists believed was possible.",
@@ -37,7 +37,7 @@
             "violence"
         ]
     },
-    {
+    "Katsuya Terada": {
         "id": "2",
         "name": "Katsuya Terada",
         "description": "Katsuya Terada (寺田 克也, Terada Katsuya, born December 7, 1963), is a Japanese illustrator and cartoonist from the town of Tamano, Okayama. His alias is the portmanteau Rakugakingu",
@@ -75,4 +75,4 @@
         ]
     }
 
-]
+}

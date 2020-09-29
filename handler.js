@@ -1,16 +1,17 @@
 const artists = require('./artistList.json');
+const artistKeys = Object.keys(artists);
 
 const search = (metric, search) => {
-    return(artists.filter(elem => {
-        return elem[metric].toLowerCase().includes(search.toLowerCase());
-    }));
+    return(artistKeys.filter(elem => {
+        return artists[elem][metric].toLowerCase().includes(search.toLowerCase());
+    })).map(elem => artists[elem]);
 };
 const searchList = (metric, search) => {
-    return(artists.filter(elem => {
-        return elem[metric].find(subElem => {
+    return(artistKeys.filter(elem => {
+        return artists[elem][metric].find(subElem => {
             return subElem.toLowerCase().includes(search.toLowerCase());
         });
-    }));
+    })).map(elem => artists[elem]);
 };
 
 const artistsAll = () => {
@@ -34,10 +35,22 @@ const artistsByMedium = (medium) => {
 };
 
 const randomArtist = () => {
-
+    return artists[artistKeys[Math.floor(Math.random() * artistKeys.length)]];
 };
 
 const randomArtistNum = (num) => {
+    let keys = [...artistKeys];
+    if (keys.length <= num) {
+        console.log(keys);
+        return artists;
+    }
+    let randomArtists = []; 
+    while(randomArtists.length < num){
+        let keyIndex = keys[Math.floor(Math.random() * keys.length)];
+        randomArtists.push(artists[keyIndex]);
+        keys.splice(keyIndex, 1);
+    }
+    return randomArtists;
 
 };
 
