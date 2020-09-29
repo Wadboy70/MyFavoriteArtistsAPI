@@ -8,6 +8,11 @@ cors = require('cors'),
 app.use(cors());
 
 //Routes
+app.all("*", (req, res, next) => {
+    res.set("Access-Control-Allow-Origin", "*");
+    next();
+});
+
 app.get('/', (req,res) => {
     res.send('use /name/:name, /platform/:platform, /nationality/:nationality, /medium/:medium, /random or /random/:random (value preceded by colon signified search value :D)');
 });
