@@ -36,5 +36,43 @@
             "perspective",
             "violence"
         ]
+    },
+    {
+        "id": "2",
+        "name": "Katsuya Terada",
+        "description": "Katsuya Terada (寺田 克也, Terada Katsuya, born December 7, 1963), is a Japanese illustrator and cartoonist from the town of Tamano, Okayama. His alias is the portmanteau Rakugakingu",
+        "platforms": [
+            {
+                "platform": "website",
+                "url": "http://cacazan.com/"
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/katsuyaterada/"
+            },
+            {
+                "platform": "twitter",
+                "url": "https://twitter.com/terra_da_k/"
+            }
+        ],
+        "nationality": "JP",
+        "mediums": [
+            "pen",
+            "digital",
+            "pencil",
+            "watercolor",
+            "clay"
+        ],
+        "subjectMatter": [
+            "manga",
+            "japanese culture",
+            "anatomy",
+            "fantasy",
+            "surreal",
+            "violence",
+            "dragons",
+            "video games"
+        ]
     }
+
 ]

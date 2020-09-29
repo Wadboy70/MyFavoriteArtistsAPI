@@ -18,13 +18,13 @@ app.get('/name/:name', (req,res) => {
     res.json(artistsByName(req.params.name));
 });
 app.get('/platform/:platform', (req,res) => {
-    res.json(artistsByName(req.params.platform));
+    res.json(artistsByPlatform(req.params.platform));
 });
 app.get('/nationality/:nationality', (req,res) => {
     res.json(artistsByNationality(req.params.nationality));
 });
 app.get('/medium/:medium', (req,res) => {
-    res.json(artistsByName(req.params.medium));
+    res.json(artistsByMedium(req.params.medium));
 });
 app.get('/random', (req,res) => {
     res.json(randomArtist());
