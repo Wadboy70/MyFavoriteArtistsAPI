@@ -44,7 +44,7 @@ Returns an object containing all entries:
         ]
     },
     "artist2": {
-        ...
+        
     }
 }
 ```
@@ -59,13 +59,13 @@ Returns an array of all entries containing name search value:
     [
         {
             "name": "bobby",
-            ...
+            
         },
         {
             "name": "bobette",
-            ...
+            
         },
-        ...
+        
     ]
 ```
 
@@ -84,7 +84,7 @@ Returns an array of all entries containing platform search value:
                     "platform": "instagram" ,
                     "url": "https://instagram.com/wadboy"
                 },
-                ...
+                
             ]
         }
     ]
@@ -134,7 +134,7 @@ Returns an random artist object:
 ```json
 {
     "name": "randomArtist",
-    ...
+    
 }
 ```
 
@@ -147,10 +147,10 @@ Returns an random OBJECT of artist objects containing the specified value (if le
 ```json
 {
     "randomartist1":{
-        ...
+        
     },
     "randomartist2":{
-        ...
+        
     }
 }
 ```
