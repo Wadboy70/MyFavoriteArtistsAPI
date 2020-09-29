@@ -34,7 +34,8 @@
             "animals",
             "anatomy",
             "perspective",
-            "violence"
+            "violence",
+            "portraits"
         ]
     },
     "Katsuya Terada": {
@@ -72,6 +73,77 @@
             "violence",
             "dragons",
             "video games"
+        ]
+    },
+    "Eliza Ivanova": {
+        "id": "3",
+        "name": "Eliza Ivanova",
+        "description": "Eliza Ivanova is an artist, animator, and film maker currently living in San Francisco, California. Originally from Sofia, Bulgaria, she moved to the US to study animation at the California Institute of the Arts. Eliza graduated in 2010 with a BFA in traditional character animation and has worked as an animator in the industry since. Her experience includes working as a full time 3D animator at Pixar Animation Studios on feature films and short films such as Cars 2, Brave, Monsters University, Inside Out, Coco, Toy Story of Terror, Bao, The Dam Keeper, and more. ",
+        "platforms": [
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/eleeza/"
+            },
+            {
+                "platform": "website",
+                "url": "https://www.elizaivanova.com/"
+            }
+        ],
+        "nationality": "BG",
+        "mediums": [
+            "digital",
+            "pen",
+            "pencil",
+            "graphite",
+            "oil",
+            "watercolor"
+        ],
+        "subjectMatter": [
+            "fantasy",
+            "anatomy",
+            "surreal",
+            "animals",
+            "children",
+            "ghosts",
+            "portraits"
+        ]
+    },
+    "Karl Kopinski": {
+        "id": "4",
+        "name": "Karl Kopinski",
+        "description": "Karl was born and raised in Nottingham, UK and has been working in the illustration industry since 1997. He is largely self taught, using both traditional and digital media he has worked with a large variety of clients including Peter Jackson, Sir Paul Smith, Hasbro, Ubisoft, Aboud Creative, Sixmorevodka, Wizards of the coast and Games Workshop to name but a few.",
+        "platforms": [
+            {
+                "platform": "website",
+                "url": "https://karlkopinski.com/"
+            },
+            {
+                "platform": "instagram",
+                "url": "https://www.instagram.com/karlkopinski/"
+            }
+        ],
+        "nationality": "GB",
+        "mediums": [
+            "digital",
+            "pencil",
+            "pen",
+            "oil",
+            "watercolor",
+            "brush pen"
+
+        ],
+        "subjectMatter": [
+            "war",
+            "fantasy",
+            "animals",
+            "surreal",
+            "ogres",
+            "dragons",
+            "warriors",
+            "pirates",
+            "space",
+            "portraits"
+
         ]
     }
 
