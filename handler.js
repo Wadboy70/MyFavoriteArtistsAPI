@@ -41,7 +41,6 @@ const randomArtist = () => {
 const randomArtistNum = (num) => {
     let keys = [...artistKeys];
     if (keys.length <= num) {
-        console.log(keys);
         return artists;
     }
     let randomArtists = []; 
