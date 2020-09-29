@@ -1,6 +1,6 @@
 # Modern Artist API
 
-I really like art so I thought it would be cool to have an API of ~living~ artists that I can use for future projects!
+I really like art so I thought it would be cool to have an API of \~living\~ artists that I can use for future projects!
 
 ## Production host
 
