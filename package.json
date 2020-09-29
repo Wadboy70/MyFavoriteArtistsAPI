@@ -5,6 +5,7 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   }
 }
